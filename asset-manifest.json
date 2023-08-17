@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Expense_list_app/static/css/main.9fe0a62b.css",
+    "main.js": "/Expense_list_app/static/js/main.5262212b.js",
+    "static/js/787.10b259ff.chunk.js": "/Expense_list_app/static/js/787.10b259ff.chunk.js",
+    "index.html": "/Expense_list_app/index.html",
+    "main.9fe0a62b.css.map": "/Expense_list_app/static/css/main.9fe0a62b.css.map",
+    "main.5262212b.js.map": "/Expense_list_app/static/js/main.5262212b.js.map",
+    "787.10b259ff.chunk.js.map": "/Expense_list_app/static/js/787.10b259ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fe0a62b.css",
+    "static/js/main.5262212b.js"
+  ]
+}
