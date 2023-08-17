@@ -1,0 +1,14 @@
+.chart{
+    height: 20%;
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+@media screen and (width <= 700px) {
+    .chart{
+        width: 100%;
+    }
+}

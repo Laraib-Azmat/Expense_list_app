@@ -1,0 +1,22 @@
+.expense-date{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border : 2px solid white;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.day{
+    font-weight: lighter;
+}
+@media screen and (width <= 400px) {
+    .expense-date{
+        padding: 0.5rem;
+    font-size: 0.7rem;
+    }
+}

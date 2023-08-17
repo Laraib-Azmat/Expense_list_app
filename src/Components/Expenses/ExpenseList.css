@@ -1,0 +1,54 @@
+.expense-list{
+    background-color:#161F6D ; 
+    box-shadow: 0px 1px 20px rgb(245, 242, 242), 1px 0px 10px rgb(233, 185, 185);
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.expense-list ul{
+    width: 100%;
+    list-style: none;
+    color: white;
+}
+.expense-chart{
+ display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+.noexpense{
+    font-size: 2rem;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (width <= 700px) {
+    .expense-chart{
+       flex-direction: column;
+
+    }
+}
+@media screen and (width <= 540px) {
+    .expense-list{
+        width: 100%;
+    }
+    .expense-list ul{
+      width: auto;
+    }
+}
+@media screen and (width <= 450px) {
+    .expense-list{
+        padding: 1rem 0.5rem;
+        background: none;
+    }
+    .expense-list ul{
+        width: 100vw;
+      }
+}

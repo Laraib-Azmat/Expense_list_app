@@ -1,0 +1,45 @@
+.expense{
+    width: 80%;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: rgb(153, 59, 241);
+    border-radius: 2rem;
+    border: 2px solid white;
+}
+
+.editing-btn{
+   background: transparent;
+   border: none;
+    height: 10vh;
+    color: black;
+    width: 80%;
+    margin: auto;
+    font-size: 4rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+.editing-btn:hover{
+    color:white;
+}
+
+
+@media screen and (width <= 910px) {
+    .editing-btn{
+        font-size: 3rem;
+
+    }
+}
+
+@media screen and (width <= 660px) {
+    .editing-btn{
+        font-size: 2rem;
+    }
+}
+@media screen and (width <= 315px) {
+    .expense{
+        width: 90%;
+        margin: 2rem auto;
+        padding: 1rem;}
+}
